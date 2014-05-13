@@ -1,4 +1,7 @@
-superci
+Main rules of install
 =======
 
-new_codeigniter_crud
+1. Добавить в /application/config/routes.php  
+        $route['send'] = 'ajax/index';
+        после $route['default_controller'].
+
